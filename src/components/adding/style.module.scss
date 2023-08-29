@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 20px;
+  background-color: #e06c1c;
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  select {
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #c5a89370;
+    color: #4d3524;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    outline: none;
+  }
+  input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4d3524;
+    background-color: #c5a89370;
+    color: #4d3524;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    outline: none;
+  }
+  button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #69c2a4;
+    color: #4d3524;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    transition: all 0.03s linear;
+    outline: none;
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
